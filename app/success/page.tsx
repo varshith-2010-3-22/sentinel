@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/next";
 import { Shield, Download, ArrowRight, CheckCircle } from "lucide-react";
 
 export default function SuccessPage() {

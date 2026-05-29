@@ -1,9 +1,11 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/next";
 import { Shield, Terminal, AlertTriangle, Cpu, Download, BookOpen, ExternalLink, RefreshCw } from "lucide-react";
 
 export default function DocsPage() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-[#EDEDED] font-sans selection:bg-neutral-800 selection:text-white">
+      <Analytics />
       
       {/* Navigation Header */}
       <nav className="max-w-5xl mx-auto px-6 py-6 flex justify-between items-center border-b border-neutral-900">
